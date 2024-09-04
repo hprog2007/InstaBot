@@ -10,10 +10,12 @@ class Config:
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
     USER = os.environ.get("INSTAGRAM_USERNAME", "")
     OWNER = os.environ.get("OWNER_ID", "")
-    INSTA_SESSIONFILE_ID = os.environ.get("INSTA_SESSIONFILE_ID", None)
+  #  INSTA_SESSIONFILE_ID = os.environ.get("INSTA_SESSIONFILE_ID", None)
     S = "0"
     STATUS = set(int(x) for x in (S).split())
     L=Instaloader()
+    L.login(username="khoshtip2019", password="Qweasd784@")
+    INSTA_SESSIONFILE_ID ="khoshtip2019.session"
     HELP="""
 You can Download almost anything From your Instagram Account.
 
