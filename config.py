@@ -14,7 +14,7 @@ class Config:
     S = "0"
     STATUS = set(int(x) for x in (S).split())
     L=Instaloader()
-    L.login("jvjfunpage","Qweasd784@")
+    L.login(username="jvjfunpage", password="Qweasd784@")
     INSTA_SESSIONFILE_ID ="jvjfunpage.session"
     HELP="""
 You can Download almost anything From your Instagram Account.
