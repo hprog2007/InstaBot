@@ -8,14 +8,14 @@ class Config:
     API_ID = 44632 # int(os.environ.get("API_ID", ""))
     API_HASH = "2f0927089877c43f59198434d5c362b7" # os.environ.get("API_HASH", "")
     BOT_TOKEN = "7519290204:AAF4rrvooDkMCx1mvRKgEIXactJCu0Gtx58" #os.environ.get("BOT_TOKEN", "") 
-    USER = "khoshtip2019" # os.environ.get("INSTAGRAM_USERNAME", "")
+    USER = "jvjfunpage" # os.environ.get("INSTAGRAM_USERNAME", "")
     OWNER = "6631759039" # os.environ.get("OWNER_ID", "")
   #  INSTA_SESSIONFILE_ID = os.environ.get("INSTA_SESSIONFILE_ID", None)
     S = "0"
     STATUS = set(int(x) for x in (S).split())
     L=Instaloader()
-    L.login("Khoshtip2019","Qweasd784@")
-    INSTA_SESSIONFILE_ID ="khoshtip2019.session"
+    L.login("jvjfunpage","Qweasd784@")
+    INSTA_SESSIONFILE_ID ="jvjfunpage.session"
     HELP="""
 You can Download almost anything From your Instagram Account.
 
